@@ -31,9 +31,9 @@ MonoBehaviour:
       m_GuidLow: 5333446481788497673
       m_GuidHigh: 14736643457241833395
     m_SerializedTextureGuid:
-      m_GuidLow: 18024637904248503203
-      m_GuidHigh: 3973359239823505449
+      m_GuidLow: 7071935701459673734
+      m_GuidHigh: 8150097335375025818
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: MERC_CAR
-    m_Texture: {fileID: 2800000, guid: dfc5fba360acfa242938b2462d352437, type: 3}
+    m_Texture: {fileID: 2800000, guid: 3fe82286900d62249ad6e26f58f61a71, type: 3}
