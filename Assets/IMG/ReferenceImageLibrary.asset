@@ -25,7 +25,7 @@ MonoBehaviour:
       m_GuidHigh: 9643621867719584827
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: RMCar26_Variant
+    m_Name: RMCar26_D
     m_Texture: {fileID: 2800000, guid: 6b50d61b184bd6743b6c9d9dfe06d585, type: 3}
   - m_SerializedGuid:
       m_GuidLow: 5333446481788497673
