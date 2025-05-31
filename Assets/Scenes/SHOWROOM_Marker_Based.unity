@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ArPrefabs:
-  - {fileID: 7528201231955773516, guid: 56d25a9ed9d38ca43b5440d6d8975cf3, type: 3}
+  - {fileID: 3796921279050731854, guid: f815e3fdf2ceb3048a8fe707de31534f, type: 3}
   - {fileID: 50526066073345375, guid: 8558b8291938535478da5ebeaba96c93, type: 3}
 --- !u!1 &1515910146
 GameObject:

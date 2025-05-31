@@ -30,10 +30,12 @@ public class PlaceOneCar : MonoBehaviour
             Destroy(args.placementObject);
         }
 
-        // Fix: Use the transform of the placementObject for position and rotation
+        // Fix: Use the transform of the placementObject for position and rotatio
         if (spawnedCar == null && args.placementObject != null)
         {
             spawnedCar = Instantiate(carPrefab, args.placementObject.transform.position, args.placementObject.transform.rotation);
+            
+
         }
         else
         {
