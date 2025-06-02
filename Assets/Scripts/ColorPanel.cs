@@ -1,10 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ColorPanel : MonoBehaviour
 {
     [SerializeField] private GameObject panel;
+
+    private bool isPanelVisible = false;
 
     private void Awake()
     {
@@ -12,21 +12,11 @@ public class ColorPanel : MonoBehaviour
             panel.SetActive(false);
     }
 
-    public void Show()
+    public void OnChangeColorButtonPressed()
     {
-        if (panel != null)
-            panel.SetActive(true);
-    }
+        if (panel == null) return;
 
-    public void Hide()
-    {
-        if (panel != null)
-            panel.SetActive(false);
-    }
-
-    public void Toggle()
-    {
-        if (panel != null)
-            panel.SetActive(!panel.activeSelf);
+        isPanelVisible = !isPanelVisible;
+        panel.SetActive(isPanelVisible);
     }
 }
