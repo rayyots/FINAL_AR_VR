@@ -12815,9 +12815,9 @@ GameObject:
   - component: {fileID: 1439082924549905606}
   - component: {fileID: 1310702372368996349}
   - component: {fileID: 3549372891210209976}
-  - component: {fileID: 1370003884387783797}
+  - component: {fileID: 5607915460347518083}
   m_Layer: 0
-  m_Name: RMCar26_B
+  m_Name: RMCar26_B_Marker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13511,7 +13511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 40
---- !u!114 &1370003884387783797
+--- !u!114 &5607915460347518083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13520,10 +13520,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3796921279050731854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7cad084e5e0779943b43146be3982b35, type: 3}
+  m_Script: {fileID: 11500000, guid: d117048d4dfae044aabe198403c7669e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   carCanvas: {fileID: 5119596582425475132}
+  trackedImageManager: {fileID: 7612186508072429155, guid: dab0bc704ffc78946bf19c08e011eeb6,
+    type: 3}
 --- !u!1 &3796921279061833672
 GameObject:
   m_ObjectHideFlags: 0
@@ -19750,7 +19752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.08750001, y: 0.42881578}
   m_AnchorMax: {x: 0.87750006, y: 0.7747764}
-  m_AnchoredPosition: {x: 5.01593, y: 0.5}
+  m_AnchoredPosition: {x: 5.015991, y: 0.5}
   m_SizeDelta: {x: 10.0308, y: -8.59198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2833995171377084351
@@ -19828,7 +19830,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0007918813, y: 0}
+  m_AnchoredPosition: {x: -458.03442, y: 0.00094474875}
   m_SizeDelta: {x: 458.0337, y: 200}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &5285666421084219980
@@ -20336,7 +20338,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2063379372496668769}
   - {fileID: 3241943410613108854}
@@ -20357,7 +20359,8 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 3123913234063204703, guid: 34d0f81a5d679004784f1b76683099b6,
+    type: 3}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -20445,7 +20448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0022583008, y: 0.0016479492}
+  m_AnchoredPosition: {x: -0.0021972656, y: 0.0016479492}
   m_SizeDelta: {x: 0.039978027, y: -0.30999756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2780751247753715816
